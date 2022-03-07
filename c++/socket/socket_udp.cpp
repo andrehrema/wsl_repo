@@ -132,6 +132,10 @@ int main(void)
             }
         }
     }
+    else
+    {
+        printf("Error opening kernel");
+    }
 
     return 0;
 }
