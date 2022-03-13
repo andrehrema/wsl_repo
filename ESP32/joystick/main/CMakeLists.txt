@@ -1,6 +1,6 @@
 idf_component_register(SRCS "joystick.c"
-                    INCLUDE_DIRS "."
-                    REQUIRES lwip esp_netif esp_event esp_wifi soc esp_hw_support driver)
+                    INCLUDE_DIRS ""
+                    REQUIRES lwip esp_netif esp_event esp_wifi soc esp_hw_support driver ulp)
 
 
 set(ulp_app_name ulp_${COMPONENT_NAME})
